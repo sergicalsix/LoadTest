@@ -1,0 +1,9 @@
+[package]
+name = "load_test"
+version = "0.1.0"
+authors = ["sergicalsix"]
+edition = "2021" 
+
+[dependencies]
+actix-web = "4.0"
+serde = { version = "1.0", features = ["derive"] }
